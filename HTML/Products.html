@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta http-equiv="refresh" content="1"> -->
+	<title>Products page</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Products.css">
+	<style type="text/css">
+		.searchbox {
+			width: 200px;
+			padding: 1.5px 2.5px 2.5x 5px;
+		}
+
+		.footer {
+		  position: relative;
+		  margin: 0 auto;
+		  padding-right: 50px;
+		  padding-left: 50px;
+		  display: flex;
+		  overflow: hidden;
+		  height: 180px;
+		  background-color: #2e2e37;
+		  top: 20px;
+		  justify-content: space-between;
+		  bottom: 0;
+		  justify-self: center;
+		}
+
+		#contact {
+		  background-color: white;
+		  padding: 10px;
+		  align-self: center;
+		  width: 150px;
+		  color: #2e2e37;
+		  margin-left: 30px;
+		  text-align: center;
+		  font-size: 25px;
+		  font-family: monospace, Monaco;
+		  text-decoration: none;
+		  border-radius: 10px;
+		}
+
+		#contact:hover {
+		  cursor: pointer;
+		  font-size: 28px;
+		  width: 160px;
+		}
+
+		.info {
+		  color: white;
+		  font-family: monospace, "Courier New";
+		  margin-top: 10px;
+		}
+
+		.left {
+		  text-align: center;
+		  margin-top: 20px;
+		}
+
+		.right {
+		  text-align: right;
+
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="topnavOrientation">
+			<center>
+				<div class="topnav">
+					<a href="../index.html">Home</a>
+					<a href="Products.html" class="active">Products</a>
+					<a href="Blog.html">Blog</a>
+					<a href="Research.html">Research</a>
+					<a href="Contact.html" >Contact Us</a>					
+				</div>
+			</center>
+		</div>
+		<div class="gap" style="height: 5px; margin: 0;"></div>
+	</header>
+
+	<div class="bodyOrientation">
+		<div style="display: flex">
+
+			<div class = "logo"> 
+				<a href="../index.html"><img height="100%" width="100%" src="../Images/smallLogo.png"></a>
+			</div>
+
+			<div class="search">
+				<form id="search" name="search" onsubmit="validateSearch()">
+					<input type="text" class="searchbox" name="searchbox" placeholder= "Search for Mobile Phones">
+					<button type="submit" id="searchButton">Search</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="shop">
+			<div id="category">
+				<h1>Phones by Brand</h1>
+			</div>
+			<div class="brand" id="samsung">
+				<h2>SAMSUNG</h2>
+			</div>
+			<table width="100%" class="ProductTables">
+				<tr>
+					<td>
+						<div id="0">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="1">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="2">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="3">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="4">
+							<img src="">
+							<p>Samsung</p>
+							<i></i>
+						</div>
+					</td>
+
+					<td>
+						<div id="5">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="6">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="7">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+
+			<div class="brand" id="vivo">
+				<h2>VIVO</h2>
+			</div>
+
+			<table width="100%" class="ProductTables">
+				<tr>
+					<td>
+						<div id="8">
+							<img src="">
+							<p>Samsung</p>
+							<i></i>
+						</div>
+					</td>
+
+					<td>
+						<div id="9">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="10">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="11">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+
+			<div class="brand" id="oppo">
+				<h2>OPPO</h2>
+			</div>
+
+			<table width="100%" class="ProductTables">
+				<tr>
+					<td>
+						<div id="12">
+							<img src="">
+							<p>Samsung</p>
+							<i></i>
+						</div>
+					</td>
+
+					<td>
+						<div id="13">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="14">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+
+					<td>
+						<div id="15">
+							<img src="">
+							<p>Samsung</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+	</div>
+
+	<footer>
+			<div class="footer">
+				<div class="info left">
+					<p> Customer Service:</p>
+					<p> 01-6617982</p>
+				</div>
+				<a id="contact" href="HTML/Contact.html">
+						Contact Us
+				</a>
+				<div class="info right">
+					<p> For Business Inquiries: </p>
+					<p> +977 9889234512</p>
+					<p> Toll free number: 01-6613242</p>
+					<p> shellrock70@gmail.com</p>
+				</div>
+			</div>
+		</footer>
+
+	<script src="../JavaScript/Products.js"></script>
+</body>
+</html>

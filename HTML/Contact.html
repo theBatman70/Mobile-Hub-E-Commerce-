@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Page</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Contact.css">
+	<style type="text/css">
+
+		body{
+		  background: white;
+		  margin: 0.5px 2px 0.5px 2px;
+		}
+
+		.topnav {
+		  position: relative;
+		  top: 10px;
+		  /*overflow: hidden;*/
+		  background-color: transparent;
+		  justify-content: center;
+		  align-items: center;
+		  height: 30px;
+		}
+
+		.topnav a {
+		  display: inline-flex;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 20px;
+		  font-size: 17px;
+		  text-decoration: none;
+		  font-family: monospace;
+		  align-items: center;
+		}
+
+		.topnav a:hover {
+		  background-color: lightgrey;
+		  color: black;
+		  font-size: 20px;
+		}
+
+		.topnav a.active {
+		  background-color: black;
+		  color: white;
+		}
+
+		.topnavOrientation {
+		  background-color: #2e2e37;
+		  height: 85px;
+		  width: 100%;
+		}
+
+		.footer {
+		  position: relative;
+		  margin: 0 auto;
+		  padding-right: 50px;
+		  padding-left: 50px;
+		  display: flex;
+		  overflow: hidden;
+		  height: 180px;
+		  background-color: #2e2e37ff;
+		  top: 20px;
+		  justify-content: space-between;
+		  bottom: 0;
+		  justify-self: center;
+		}
+
+		#contact {
+		  background-color: #dddbcbff;
+		  padding: 10px;
+		  align-self: center;
+		  width: 150px;
+		  color: #2e2e37;
+		  margin-left: 30px;
+		  text-align: center;
+		  font-size: 25px;
+		  font-family: monospace, Monaco;
+		  text-decoration: none;
+		  border-radius: 10px;
+		}
+
+		#contact:hover {
+		  cursor: pointer;
+		  font-size: 28px;
+		  width: 160px;
+		}
+
+		.info {
+		  color: white;
+		  font-family: monospace, "Courier New";
+		  margin-top: 10px;
+		}
+
+		.left {
+		  text-align: center;
+		  margin-top: 20px;
+		}
+
+		.right {
+		  text-align: right;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="topnavOrientation">
+			<center>
+				<div class="topnav">
+					<a href="../index.html">Home</a>
+					<a href="Products.html">Products</a>
+					<a href="Blog.html">Blog</a>
+					<a href="Research.html">Research</a>
+					<a href="Contact.html" class="active">Contact Us</a>					
+				</div>
+			</center>
+		</div>
+		<div class="gap" style="height: 5px; margin: 0;"></div>
+	</header>
+
+	<div class="bodyOrientation">
+		<h1 style="color: #dddbcbff; text-align: center; margin-top: 30px;"> Leave us a Message</h1>
+		
+		<form name="contactForm"  onsubmit="validateForm()">
+			<table align="center">
+				<tr>
+					<td>
+						Your Name:
+					</td>
+					<td>
+						<input type="text" name="name" id="field">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Phone Number: 
+					</td>
+					<td>
+						<input type="text" name="number">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Email Address:
+					</td>
+					<td>
+						<input type="email" name="email">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Enter Your Queries or any Messages Here:
+					</td>
+					<td>
+						<input type="text" name="message">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"> 
+						<center>
+							<button type="submit" id="submit">SUBMIT</button>
+						</center>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+	<footer>
+		<div class="footer">
+			<div class="info left">
+				<p> Customer Service:</p>
+				<p> 01-6617982</p>
+			</div>
+			<a id="contact" href="Contact.html">
+					Contact Us
+			</a>
+			<div class="info right">
+				<p> For Business Inquiries: </p>
+				<p> +977 9889234512</p>
+				<p> Toll free number: 01-6613242</p>
+				<p> shellrock70@gmail.com</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../JavaScript/Contact.js"></script>
+</body>
+</html>

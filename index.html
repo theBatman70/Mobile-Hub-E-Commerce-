@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta http-equiv="refresh" content="1"> -->
+	<title>Mobile Hub: Home Page</title>
+	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+
+	<style type="text/css">
+
+		/* CSS of the outermost div of Footer Section where all the adjustments and styling have been done */
+			.footer {
+			  position: absolute;
+			  border-top-left-radius: 20px;
+			  border-top-right-radius: 20px;
+			  padding-right: 50px;
+			  padding-left: 50px;
+			  display: flex;
+			  width: 91.9%;
+			  overflow: hidden;
+			  height: 180px;
+			  background-color: #1b9aaaff;
+			  top: 750px;
+			  justify-content: space-between;
+			  bottom: 0;
+			  justify-self: center;
+			}
+
+		/* Elements in the Footer Section */
+
+			#contact {
+			  background-color: #2e2e37;
+			  padding: 10px;
+			  align-self: center;
+			  width: 150px;
+			  color: white;
+			  margin-left: 30px;
+			  text-align: center;
+			  font-size: 25px;
+			  font-family: monospace, Monaco;
+			  text-decoration: none;
+			  border-radius: 10px;
+			}
+
+			#contact:hover {
+			  cursor: pointer;
+			  font-size: 28px;
+			  width: 160px;
+			}
+
+			.info {
+			  color: white;
+			  font-family: monospace, "Courier New";
+			  margin-top: 10px;
+			}
+
+			.left {
+			  text-align: center;
+			  margin-top: 20px;
+			}
+
+			.right {
+			  text-align: right;
+			}
+
+	</style>
+
+</head>
+<body>
+	<header>
+		<center>
+			<!-- The Top Navigation Bar -->
+			<div class="topnavOrientation">
+				<center>
+				<div class="topnav" id="myTopnav">
+					<a href="index.html" class="active">Home</a>
+					<a href=HTML/Products.html>Products</a>
+					<a href="HTML/Blog.html">Blog</a>
+					<a href="HTML/Research.html">Research</a>
+					<a href="HTML/Contact.html">Contact Us</a>
+				</div>
+				</center>
+			</div>
+			<!-- A gap for styling the layout -->
+			<div class="gap" style="height: 5px; margin: 0;"></div>
+		</center>
+	</header>
+
+<!-- Body Section below the Navigation Bar -->
+	<div class="homebody">
+		<center>
+		<div class="bodyOrientation">
+			<div class= "slides">
+					<div id="overview" >
+						<a href=""><img class="logo" src="Images/smallLogo.png"></a>
+					</div>
+			</div>
+		</div>
+	</center>
+	</div>
+		
+	<center>
+	<div class="triangle-down"></div>
+
+	<div class="downBody">
+		<div id="hotdeals">
+			<marquee behavior="alternate"> <a href="HTML/Products.html"><a>Get Hot Deals</a></marquee>
+		</div>
+			<a href="HTML/Products.html">
+				<div id="browseProducts">
+				<font>Browse Products</font>
+				</div>
+			</a>
+
+	</div>
+	</center>
+
+
+<!-- Footer Section -->
+	<footer>
+		<div class="footer">
+			<div class="info left">
+				<p> Customer Service:</p>
+				<p> 01-6617982</p>
+			</div>
+			<a id="contact" href="HTML/Contact.html">
+					Contact Us
+			</a>
+			<div class="info right">
+				<p> For Business Inquiries: </p>
+				<p> +977 9889234512</p>
+				<p> Toll free number: 01-6613242</p>
+				<p> shellrock70@gmail.com</p>
+			</div>
+		</div>
+	</footer>
+
+<!-- Linking the JavaScript File -->
+	<script src="JavaScript/HomePage.js"></script>
+
+</body>
+</html>

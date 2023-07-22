@@ -1,0 +1,196 @@
+body{
+  background: white;
+  margin: 0.5px 2px 0.5px 2px;
+}
+
+.topnav {
+  position: relative;
+  top: 10px;
+  /*overflow: hidden;*/
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.topnav a {
+  display: inline-flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: monospace;
+  align-items: center;
+}
+
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+  font-size: 20px;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnavOrientation {
+  background-color: #2e2e37;
+  height: 85px;
+  width: 100%;
+}
+
+.bodyOrientation {
+  padding: 5px 30px 5px 30px;
+  background-color: #1b9aaaff;
+  display: flex;
+  height: auto;
+  margin: auto;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.logo {
+  height: 75px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  top: 20px;
+  height: 40px;
+  width: 250px;
+  overflow: hidden;
+}
+
+.searchbox {
+  border-radius: 5px;
+  border-color: #1b9aaaff;
+}
+
+#search button {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+#search {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+#search button:hover {
+  cursor: pointer;
+}
+
+.shop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 20px;
+  overflow: hidden;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-spacing: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  /*justify-items: center;*/
+}
+
+td {
+  background-color: #ffffffff;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+table img {
+  height: 150px;
+  width: 150px;
+}
+
+table p {
+  color: #1b9aaaff;
+  font-family: fantasy, Copperplate;
+}
+
+.cart {
+      border: none;
+      color: white;
+      padding: 10px
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #2e2e37;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      height: 40px;
+      width: 50%;
+      top: 325px;
+      position: absolute;
+  }
+
+.cart:hover {
+  font-size: 17px;
+}
+
+#category
+{
+  margin-top: 20px;
+  display: flex;
+  background-color: #1b9aaaff;
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: monospace, Monaco;
+  font-size: 28px;
+  overflow: hidden;
+}
+
+.brand {
+  display: flex;
+  margin-top: 50px;
+  background-color: #1b9aaaff;
+  height: 50px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  color: #dddbcbff;
+  border-radius: 10px;
+  font-family: monospace, "Courier New";
+  font-size: 25px;
+}
+
+#priceCut {
+  text-decoration: line-through;
+  color: darkred;
+}
+
+#price {
+  color: yellowgreen;
+}
+
+#searchButton {
+
+}

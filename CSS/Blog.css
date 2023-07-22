@@ -1,0 +1,26 @@
+.bodyOrientation {
+    padding: 5px 30px 5px 30px;
+    background-color: #1b9aaaff;
+    display: flex;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+p {
+  text-align: justify; 
+  color: #f2f2f2;
+}
+
+li {
+    text-align: justify; 
+    color: #f2f2f2;
+    padding: 10px;
+  }
+
+h2 {
+    color:#dddbcbff; 
+    text-align: center; 
+    font-family: Arial;
+}

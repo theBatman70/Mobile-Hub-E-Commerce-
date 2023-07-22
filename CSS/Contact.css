@@ -1,0 +1,33 @@
+.bodyOrientation {
+		  padding: 5px 30px 5px 30px;
+		  background-color: #1b9aaaff;
+		  display: flex;
+		  height: auto;
+		  margin: auto;
+		  flex-direction: column;
+		  overflow: hidden;
+		}
+
+table, td{
+	padding: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: white;
+	border-spacing: 20px;
+}
+
+#submit {
+	padding: 10px;
+	width: 30%;
+	cursor: pointer;
+	font-family: fantasy, Copperplate;
+	color: white;
+	background-color: #2e2e37ff;
+	border-radius: 20px;
+	border: none;
+	font-size: 20px;
+}
+
+#submit:hover {
+	width: 40%;
+	font-size: 22px;
+}
